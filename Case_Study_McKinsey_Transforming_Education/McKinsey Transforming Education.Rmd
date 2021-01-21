@@ -1,0 +1,148 @@
+---
+title: "Case Study: McKinsey Transforming Education"
+author: "Jimmy Luong"
+date: "1/20/2021"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Transforming a national education system
+## A McKinsey Practice Case Study
+
+### Source: https://www.mckinsey.com/careers/interviewing/national-education
+### R Markdown Collapsible source: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
+
+
+## Client Goal
+Loravia is a fictional country located in Eastern Europe with a population of 20 million. The government of Loravia wants to achieve major improvements in both the quantity and quality of education for its children. Because McKinsey has great deal of global knowledge and expertise in the education sector, the Loravian Department of Education has asked McKinsey to provide advice on how they can achieve this transformation in its school system.
+
+## Description of situation
+Loravia’s free-market economy is still developing, having emerged from many decades under communism. Recently, the government of Loravia put in place a new economic plan, with aspirations to transform its economy and “turbocharge” its development so that it is well positioned to compete with its European neighbors. The government of Loravia realizes that the education of its children is a critical factor in meeting its economic-development goals. It intends to transform its school system over the next 10 years so that it is able to support its economic aspirations.
+
+Schooling in Loravia is completely public, and is provided by a network of government-run schools, which admit children from ages 5 through 18.
+
+The first stage of this effort is to diagnose the current state of education in schools in Loravia to determine how best to meet the government’s future aspirations.
+
+## McKinsey study
+McKinsey has been asked to support the Loravian Department of Education in diagnosing the condition of its current school system, and in identifying the most important areas for improvement.
+
+## Helpful hints
+* Write down important information.
+* Feel free to ask the interviewer for an explanation of any point that is not clear to you.
+* Remember that calculators are not allowed - you may write out your calculations on paper during the interviews.
+
+# Question 1:
+What are the issues you would want to investigate in diagnosing the condition of the current school system in Loravia?
+
+## Helpful hints
+* Take time to organize your thoughts before answering. This tells the interviewer that you think about the problem in a logical way.
+* Develop overall approach before diving into details.
+
+<details>
+  <summary>Reveal Answer</summary>
+  
+**A good answer might consider** both the quantity and the quality of available education and how these influence key education outcomes, such as performance in key assessments. Such an answer might also suggest comparisons with other countries (such as regional neighbors, or comparable countries in size or economic output).
+
+Issues related to **quantity** might include:
+
+* access to education and how this differs by age, region and demographic groups
+* supply of teachers and education resources both at a national level and a regional or local level
+* spend on education nationally and regionally/locally
+
+Issues related to **quality** might include:
+
+* quality of the current curriculum, for example the subjects taught in schools and the attainment/knowledge objectives
+* quality of teaching, for example the qualification level of teachers, results of teacher assessments
+* A very good answer might acknowledge a need to consider Loravia's broader economic objectives in the diagnostic or the current overall structure of its school system, for example:
+* What industries and sectors will be a priority for Loravia in the future and what skills will be needed?
+* How well does the current education system develop these skills?
+* Should alternative models to a public education system be considered, for example, independent or private schools?
+</details>
+
+# Question 2:
+The chart below shows some important education-related measures for Loravia, and also for some comparison countries. Three sets of comparison countries have been used. In the first set are some of Loravia’s neighboring countries in Eastern Europe. In the second set are some of the most developed economies in Europe. Finally, in the third set are some countries that have similar sized economies to Loravia on a per person basis (similar GDP per capita).
+
+What can you observe from this chart?
+
+![Case Image](/Users/MetalGear/RStudio_New/DataScienceInEd_Learning/case_image.png)
+
+## Helpful hints
+* Take some time to look at the information and note any observations you have.
+* Challenge yourself to identify trends that are not immediately obvious within the data.
+* If you need to, ask your interviewer some clarifying questions. For example, your interviewer can tell you that a higher score indicates a higher level of average student achievement in the international assessment.
+
+<details>
+  <summary>Reveal Answer</summary>
+  
+**A good answer might include the following observations:**
+
+* Loravia spends a higher amount on education compared to the majority of its neighbors and its economic peers.
+* Loravia also has a lower student/teacher ratio compared to the majority of its neighbors and its economic peers.
+* Despite both of the above, Loravia has one of the lowest international assessment scores.
+* Broadly, there seems to be no direct relationship between student to teacher ratio and education outcome as measured by the international assessment.
+* Developed countries clearly spend more per student on education and have better outcomes as measured by the international assessment. However, among Loravia’s peers and neighbors there is no clear relationship between spending and education outcomes.
+
+**A very good answer** might suggest some reasons for the trends observed, draw some conclusions and/or refer back to the initial aims of the work:
+
+* The variation in the number of students per school is likely to reflect the geographical distribution of the populations of the countries.
+* While student/teacher ratios and per student funding are levers that could be considered important in improving education quality, the data here indicates that these may not in themselves provide the sought for improvement. Issues such as teacher quality and curriculum content should be investigated.
+* The international assessment may not be the best measure of the skills that will be needed in the future Loravian economy. Further research on the international assessment would be needed to determine how seriously its results should be taken. For example, if language abilities or technology skills are important for the Loravian economy, what are the best assessments/measures of these?
+
+</details>
+
+# Question 3:
+One of the clients at the Loravian Department of Education mentions the example of neighbor country C, which outperforms all of Loravia's economic peers and neighbors in the international assessment. She believes that the more concentrated school structure in this country is a big reason for its better outcomes in the international assessment. She suggests that having larger, less fragmented schools allows for more effective selection and training of teachers, leading to improved education outcomes for the students.
+
+What would be the reduction in the total number of schools in Loravia if it were to reach the same average school size as neighbor country C?
+
+*Your interviewer can provide you with the following information if requested:*
+
+* 15 percent of Loravia's population are currently attending school.
+
+## Helpful hints
+
+* Don't feel rushed into performing calculations. Take your time.
+* Talk your interviewer through your steps so that you can demonstrate an organized approach.
+
+<details>
+  <summary>Reveal Answer</summary>
+  
+**A good answer to this question might involve the following steps:**
+
+* There are 3 million school children in Loravia (15% x 20 million).
+* There are currently 6,000 schools across Loravia (=3 million school children divided by 500 per school).
+* Assuming the same school size as neighbor C would give 3,750 schools across Loravia.
+* Therefore, 2,250 schools would be closed (or 37.5% of schools).
+
+**A very good answer to this question** might acknowledge that this is probably an unrealistic target. Although some consolidation of schools may be possible in certain areas, a wholesale restructure could be counterproductive, given that many students and teachers would now have to travel much longer distances to school. This could generate other problems such as staff shortages or poor attendance, and could create much higher financial burden on the government and families.
+  
+</details>  
+
+# Question 4:
+
+Based on the issues and information discussed so far, what further issues would you want to investigate as part of the diagnostic of the current education system in Loravia?
+
+## Helpful hints
+
+* Take some time to consider what has been investigated in previous questions and what the conclusions have been.
+* Summarize for the interviewer what has been determined so far. What further investigations might be necessary?
+* Keep your eye on the overall objective. Refer back to the set of issues that were outlined in question 1 as you answer this question.
+
+<details>
+  <summary>Reveal Answer</summary>
+
+**A good answer to this question** might outline what issues we have attempted to investigate thus far and what has still to be investigated:
+
+* We have looked mostly at quantity issues (for example, teacher and school supply, education spend) and how these relate to a single education outcome.
+* We could continue to investigate these issues, and there are likely to be other measures of education outcomes that could be considered, such as alternative assessments, progression to post-secondary education or employment outcomes.
+* We have also yet to investigate the quality issues, such as the quality of the curriculum and of the teachers.
+
+**A very good answer** might “color” these issues with the conclusions from earlier questions, for example:
+
+* Care should be taken not to address the problem purely with “quantity” measures (for example, improving student/teacher ratios or increasing spend per student) as there is no clear indication so far that these would necessarily result in significant improvements in the situation.
+* Quality issues are likely to be important. We saw previously that, despite higher spending compared to its economic peers and a lower student/teacher ratio, Loravia was still underperforming in the international assessment. This indicates that the quality of teaching and the content of the curriculum are important issues to investigate thoroughly.
+  
+</details>  
